@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Presentazione PCTO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="PresentazionePCTO.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="PresentazionePCTO.js" defer></script>
+</head>
+
+<body>
+    <div id="progress" aria-hidden="true"></div>
+
+    <header class="topbar" id="topbar" role="navigation" aria-label="Main navigation">
+        <div class="brand"><img src="ELCO_logo.png" alt="ELCO logo" id="brandLogo" style="display:block;opacity:.9"></div>
+        <nav class="nav-links" role="navigation" aria-label="Navigazione box">
+            <a href="#intro" data-target="intro">Introduzione</a>
+            <a href="#azienda" data-target="azienda">L'azienda</a>
+            <a href="#attivita" data-target="attivita">Attività PCTO</a>
+            <a href="#competenze" data-target="competenze">Competenze</a>
+            <a href="#crescita" data-target="crescita">Crescita</a>
+            <a href="#procontro" data-target="procontro">Pro e Contro</a>
+        </nav>
+        <div class="brand-right" aria-label="Loghi e contatti">
+            <img src="LOGOEINAUDI.jpg" alt="Einaudi logo" id="einaudiLogo" />
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-swiper swiper" id="hero-swiper" aria-label="Hero Carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="hero-media" src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepC6ya3GCuo0jNY-eg8P5ISl8ywJ7yVya9IXUNcZ207UZA62CsT2sKoHBCq_mPtM7GQlG7GEU2cM6Q1ch-uozaBILUIKaUPe_HbJQhF8O7SMME2Fznfnc3bADeRlsFYPsMAP3wotg=s1360-w1360-h1020-rw"
+                        alt="Hero 1"></div>
+                <div class="swiper-slide"><img class="hero-media" src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqzjQFu0T-nT0ZPPPMPyiiaIMbrnp-wUofrZBOOMxqA5wBKqawEYE6Ru0hW5-I070SQ3G1ssrxgghJ6vv7fU7tZ4OWy42KakhOgq3TrkfJQ7HLRlg1MX8xOsToEQsXYUHnuFZ0zmg=s1360-w1360-h1020-rw"
+                        alt="Hero 2"></div>
+                <div class="swiper-slide"><img class="hero-media" src="ELCO1.png" alt="Hero 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev" aria-label="Slide precedente"></div>
+            <div class="swiper-button-next" aria-label="Slide successivo"></div>
+        </div>
+
+        <div class="boxes-wrap" id="boxesWrap" role="region" aria-label="Sezioni PCTO">
+            <section id="intro" class="box" tabindex="0">
+                <div class="content">
+                    <h2>Introduzione</h2>
+                    <p>Esperienza lavorativa in ambito informatico in collaborazione con la scuola. <span class="text-trim"></span></p>
+                </div>
+                <div class="media"><img src="https://lh3.googleusercontent.com/p/AF1QipPhxNPJarvxY6wePQlukJeE6Soks5UVfpwegvtC=s1360-w1360-h1020-rw" alt="Intro"></div>
+            </section>
+
+            <section id="azienda" class="box alt" tabindex="0">
+                <div class="content">
+                    <h2>L'azienda</h2>
+                    <p>Elco Elettronica progetta e realizza sistemi completi per l’automazione industriale.</p>
+                </div>
+                <div class="media"><img src="ELCO4.jpg" alt="Azienda"></div>
+            </section>
+
+            <section id="attivita" class="box attivita-box" tabindex="0">
+                <div class="attivita-swiper swiper" aria-label="Carosello attività">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="att-slide">
+                                <div class="content">
+                                    <h2>Siringa di Dosaggio</h2>
+                                    <p>Il primo progetto che ho svolto e finito assieme al mio compagno di classe.</p>
+                                </div>
+                                <div class="media"><img src="ELCO8.png" alt="Progetto 1"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="att-slide">
+                                <div class="content">
+                                    <h2>Spintore</h2>
+                                    <p>Il secondo progetto che è stato svolto quasi totalmente da noi e finito dal nostro responsabile.</p>
+                                </div>
+                                <div class="media"><img src="Spintore.png" alt="Progetto 2"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="att-slide">
+                                <div class="content">
+                                    <h2>Altro</h2>
+                                    <p>Altre attività e progetti svolti da me e il mio compagno di classe.</p>
+                                </div>
+                                <div class="media"><img src="ELCO16.jpg" alt="Altro"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev" aria-label="Slide precedente"></div>
+                    <div class="swiper-button-next" aria-label="Slide successivo"></div>
+                </div>
+            </section>
+
+            <section id="competenze" class="box alt" tabindex="0">
+                <div class="content">
+                    <h2>Competenze acquisite</h2>
+                    <p><strong>Hard Skills:</strong> PLC, Linguaggio di Automazione e Grafica<br><strong>Soft Skills:</strong> Capacità di lavorare in gruppo, Problem Solving e Matematica</p>
+                </div>
+                <div class="media"><img src="ELCO13.jpg" alt="Competenze"></div>
+            </section>
+
+            <section id="crescita" class="box" tabindex="0">
+                <div class="content">
+                    <h2>Crescita Personale</h2>
+                    <p>Ho imparato ad andare a compromessi, ascoltare e fidarmi di più delle persone attorno a me in ambito scolastico/lavorativo e mi sono convinto ancora di più che studiare è importante ma non è tutto.</p>
+                </div>
+                <div class="media"><img src="ELCO12.jpg" alt="Crescita"></div>
+            </section>
+
+            <section id="procontro" class="box alt" tabindex="0">
+                <div class="content">
+                    <h2>Pro e Contro dell'esperienza</h2>
+                    <p>Essere in poche persone in un'azienda porta a dover imparare di più, essere collaborativi e socievoli e ritrovarsi con un bel gruppo che ti fa sentire a casa. Però non è così facile arrivare in azienda.</p>
+                </div>
+                <div class="media"><img src="ELCO14.jpg" alt="Pro/Contro"></div>
+            </section>
+        </div>
+
+        <footer class="footbar" role="contentinfo">
+            <div><strong>Arianiello Angelo Christian</strong><br>Classe: 5A Informatica — Istituto Tecnico Luigi Einaudi, Correggio<br>Coordinatori PCTO: Prof. Ferrari Iacopo e Barberio Christian</div>
+            <div style="text-align:right;">
+                <div>Collaborazione con: Elco Elettronica</div>
+                <ul class="socials" aria-label="Contatti">
+                    <li><a href="mailto:Arianiello.angelochristian@einaudicorreggio.it" aria-label="Email"><span class="newsletter icon"></span><span class="sr-only">Mail Scolastica</span></a></li>
+                    <li><a href="https://www.instagram.com/final_c1" target="_blank" rel="noopener noreferer" aria-label="Instagram"><span class="instagram icon"></span><span class="sr-only">Instagram Personale</span></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
